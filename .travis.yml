@@ -9,3 +9,4 @@ cache:
     - node_modules
 script:
   - npm test
+  - cat ./coverage/lcov.info | coveralls
