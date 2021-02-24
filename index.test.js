@@ -1,4 +1,4 @@
-const checkPin = require('./')
+const checkPin = require('./index')
 
 it('takes a string as pin', () => {
     const result = checkPin('1111', 4)
